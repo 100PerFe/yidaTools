@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.searchTab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.itemChoose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-direction: row;
+}

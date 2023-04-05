@@ -1,0 +1,16 @@
+{
+  "name": "yidatools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.224",
+    "types": "^0.1.1",
+    "zui": "^1.10.0"
+  }
+}

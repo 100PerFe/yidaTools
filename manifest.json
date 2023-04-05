@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "yidatools",
+    "version": "1.0.0",
+    "description": "宜搭辅助工具",
+    "icons": {
+        "16": "images/yida16.png",
+        "32": "images/yida32.png",
+        "48": "images/yida48.png"
+    },
+
+    "action": {
+        "default_title": "由BayZeng创建的开源项目！欢迎使用&拓展！",
+        "default_popup": "html/popup.html"
+    },
+
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    },
+
+    "content_scripts": [
+        {
+            "js": ["js/content.js"],
+            "css": ["css/auto.css"],
+            "matches": ["https://*.aliwork.com/alibaba/web/*", "https://*.aliwork.com/platformManage/*"],
+            "RunAt": "document_start"
+        }
+    ],
+
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage"
+    ]
+    
+
+}

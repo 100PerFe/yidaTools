@@ -1,0 +1,20 @@
+[
+    "store.js",
+    "string.js",
+    "hotkeys.js",
+    "resize.js",
+    "jquery.extensions.js",
+    "device.js",
+    "transition.js",
+    "alert.js",
+    "button.js",
+    "collapse.js",
+    "dropdown.js",
+    "modal.js",
+    "modal.trigger.js",
+    "tooltip.js",
+    "popover.js",
+    "tab.js",
+    "messager.js"
+]
+
